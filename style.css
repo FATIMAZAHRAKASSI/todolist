@@ -1,0 +1,96 @@
+h1
+{   margin-left: 145px;
+    margin-bottom: 30px; 
+    margin-top: 40px;
+}
+
+label{
+    font-size: 1.5rem;
+}
+
+h1#authen {
+    margin-top: 120px;
+}
+
+.container
+{
+    background-color: #F6F6F2;
+    width: 600px;
+    box-shadow: 0 2px 5px rgba(0, 0,0,3);
+    margin-top: 50px;
+    border-radius: 30px;
+}
+
+#MYFORM{
+    margin-left: 5px;
+}
+
+#divelem
+{
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#divelem li{
+    flex: 1;
+    font-size: 1.2rem;
+}
+
+
+.list-wrapper input[type="checkbox"] {
+    margin-right: 10px;
+    box-sizing: border-box;
+    content: "";
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    border: solid #020631;
+    border-width: 2px;
+}
+
+
+
+body
+{
+    background-color: #020631;
+    align-items: center;
+}
+
+
+.list-wrapper
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    border:1px solid #020631;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 2px;
+}
+
+
+#editer,#ecraser
+{
+    background-color: #020631;
+    color: white;
+    border: none; 
+    cursor: pointer;
+    font-size: 1.5rem;
+
+}
+
+
+.fa-trash, .fa-edit
+{
+    pointer-events: none;
+}
+
+#reset
+{
+    margin-left: 200px;
+}
